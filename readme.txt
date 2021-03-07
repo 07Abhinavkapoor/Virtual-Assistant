@@ -3,7 +3,7 @@ or linux change the "system_command" in the code.
 
 And to make the system speak, subprocess.call() method is used, if on windows
 or linux, install the pyttsx3 module.
-paste 
+paste in global area:
     engine = pyttsx3.init("nsss")
 
 to change the voice of the assistant:
@@ -27,7 +27,7 @@ Additional Modules Required:
 The assistant is capable of :
     1. fetching information from wikipedia
     2. search for something on google and youtube
-    3. opening sites like facebook.com, netflix.com, privevideo.com
+    3. opening sites like facebook.com, netflix.com, primevideo.com
     4. launch system applications
     5. closing system applications
     6. change the system volume
